@@ -1,0 +1,26 @@
+{
+  "name": "primerapreentregaproyectofinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon ./src/app.js"
+  },
+  "author": "Mauricio Garcia",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.4.1",
+    "mongoose-paginate-v2": "^1.7.31",
+    "random-id": "^1.0.4",
+    "socket.io": "^4.7.1",
+    "sweetalert2": "^11.7.20",
+    "uniqid": "^5.4.0",
+    "validator": "^13.9.0"
+  }
+}
